@@ -1,0 +1,11 @@
+.content{
+    text-align: left;
+    font-size: var(--std-font-size);
+}
+.colHead{
+    color: var(--header-colour);
+    font-size: var(--nav-font-size);
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid var(--header-colour);
+}

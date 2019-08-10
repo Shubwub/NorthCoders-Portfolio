@@ -1,0 +1,8 @@
+:root{
+    --max-width: 960px;
+    --font: "Abel";
+    --header-colour: rgb(204, 28, 28);
+    --title-font-size: 90px;
+    --nav-font-size: 60px;
+    --std-font-size: 20px;
+}

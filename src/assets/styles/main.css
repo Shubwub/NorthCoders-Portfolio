@@ -1,0 +1,6 @@
+@import './header.css';
+@import './content.css';
+
+body{
+    font-family: var(--font);
+}
