@@ -22,23 +22,19 @@
       taken on my trip to 山寺(Yamadera) in September 2018. I am currently learning Japanese as a semi-hobby and can currently read around 1000 kanji and am planning to pass my N4 JLPT
       by december 2019.</p>
       <p>If you're interested in knowing more about the work I've done please feel free to download my resume below.</p>
-
       <h5 id="Code" class="colHead">Code Projects</h5>
-      <div>{{components['Code-projects']}}</div>
+      <CodeProjects/>
     </div>
   </main>
 </template>
-
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-//import CodeProjects from './components/CodeProjects.vue'
+import CodeProjects from './components/CodeProjects.vue'
 
 export default {
   name: 'app',
-  /*components: {
-    'Hello-world': HelloWorld,
-    'Code-projects': 'CodeProjects'
-  },*/
+  components: {
+    CodeProjects
+  }
 }
 </script>
 

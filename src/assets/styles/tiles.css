@@ -1,0 +1,26 @@
+#codeList{
+  padding: 0;
+}
+.projectItem{
+  list-style: none;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 100%;
+  background-color: var(--header-colour);
+  height: 300px;
+  box-shadow: 10px 5px 20px 1px #c9c9c9;
+  color: white;
+}
+.leftBox{
+  width: 80%;
+  display: inline-block;
+}
+.rightBox{
+  width: 20%;
+  display: inline-block;
+}
+.ProjectGraphWrapper{
+  float: left;
+  width: 100%;
+}
