@@ -6,10 +6,10 @@
       <img class="titleImg" alt="Vue logo" src="./assets/img/ONI.jpg">
     </div>
     <ul class="nav">
-      <li class="navli" id="firstLink" href="#About">About me</li>
-      <li class="navli" href="#Code">Code Projects</li>
-      <li class="navli" href="#Art">"Art"</li>
-      <li class="navli" href="#GitHub">GitHub</li>
+      <li class="navli" id="firstLink"><a href="#About"> About me</a></li>
+      <li class="navli"><a href="#Code">Code Projects</a></li>
+      <li class="navli"><a href="#Art">"Art"</a></li>
+      <li class="navli"><a href="#GitHub">GitHub</a></li>
     </ul>
     <div class="content">
       <h5 id="About" class="colHead">About Me</h5>
@@ -24,16 +24,21 @@
       <p>If you're interested in knowing more about the work I've done please feel free to download my resume below.</p>
       <h5 id="Code" class="colHead">Code Projects</h5>
       <CodeProjects/>
+      <h5 id="Art" class="colHead">Art Projects</h5>
+      <ArtProjects/>
+      <h5 id="GitHub" class="colHead">GitHub</h5>
     </div>
   </main>
 </template>
 <script>
 import CodeProjects from './components/CodeProjects.vue'
+import ArtProjects from './components/ArtProjects.vue'
 
 export default {
   name: 'app',
   components: {
-    CodeProjects
+    CodeProjects,
+    ArtProjects
   }
 }
 </script>

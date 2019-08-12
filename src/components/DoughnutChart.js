@@ -7,9 +7,15 @@ export default {
   data() {
     return {
       options: {
+        legend: {
+          labels: {
+              fontColor: "white",
+              fontSize: 18
+          }
+      },
         responsive: true, 
         maintainAspectRatio: true
-      }
+      },
     }
   },
   mounted() {

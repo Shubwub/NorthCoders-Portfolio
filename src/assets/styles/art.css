@@ -1,0 +1,36 @@
+.rightSide{
+  width: 60%;
+  display: inline-block;
+  text-align: right;
+}
+.leftSide{
+  width: 40%;
+  display: inline-block;
+}
+.artImg{
+  width: 100%;
+}
+.artProjectItem{
+  list-style: none;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background-color: var(--header-colour);
+  box-shadow: 10px 5px 20px 1px #c9c9c9;
+  color: white;
+  width: 43%;
+  display: inline-block;
+  margin: 20px;
+  transition: .5s;
+}
+.artTitle{
+  margin: 0;
+  font-size: 100px;
+}
+.artProjectItem:hover{
+  transform: scale(1.1);
+  transition: .5s;
+  box-shadow: none;
+  cursor: pointer;
+}
