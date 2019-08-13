@@ -15,7 +15,8 @@
     position: relative;
 }
 .titleImg{
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 50% 50%, 50% 100%, 50% 50%);
+    transition: 1s;
     width: 100%;
     z-index: 1;
     border: 1px solid white;

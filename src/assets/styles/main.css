@@ -10,3 +10,6 @@ a{
     text-decoration: none;
     color: var(--header-color);
 }
+.pageWrapper{
+    position: relative;
+}

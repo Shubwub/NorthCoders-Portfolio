@@ -3,13 +3,12 @@
     <div class="header">
       <div id="headerLeft" class="imgText">CAMERON</div>
       <div id="headerRight" class="imgText">THORNTON</div>
-      <img class="titleImg" alt="Vue logo" src="./assets/img/ONI.jpg">
+      <img class="titleImg" alt="Vue logo" src="./assets/img/ONI.jpg" id='headerIMG'>
     </div>
     <ul class="nav">
       <li class="navli" id="firstLink"><a href="#About"> About me</a></li>
       <li class="navli"><a href="#Code">Code Projects</a></li>
       <li class="navli"><a href="#Art">"Art"</a></li>
-      <li class="navli"><a href="#GitHub">GitHub</a></li>
     </ul>
     <div class="content">
       <h5 id="About" class="colHead">About Me</h5>
@@ -21,12 +20,10 @@
       <p>On a personal note, I have a keen interest in Japanese culture and history. The vector image used in the parallax effect above was created by myself based on a picture
       taken on my trip to 山寺(Yamadera) in September 2018. I am currently learning Japanese as a semi-hobby and can currently read around 1000 kanji and am planning to pass my N4 JLPT
       by december 2019.</p>
-      <p>If you're interested in knowing more about the work I've done please feel free to download my resume below.</p>
       <h5 id="Code" class="colHead">Code Projects</h5>
-      <CodeProjects/>
+      <code-projects/>
       <h5 id="Art" class="colHead">Art Projects</h5>
-      <ArtProjects/>
-      <h5 id="GitHub" class="colHead">GitHub</h5>
+      <art-projects/>
     </div>
   </main>
 </template>
@@ -38,9 +35,13 @@ export default {
   name: 'app',
   components: {
     CodeProjects,
-    ArtProjects
+    ArtProjects,
+  },
+  mounted(){
+    document.getElementById('headerIMG').style.clipPath="polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)";
   }
 }
+
 </script>
 
 <style lang="postcss">
