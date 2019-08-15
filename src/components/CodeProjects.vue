@@ -30,7 +30,7 @@ export default {
         Title: 'This Website',
         Description: "The portfolio site you're on right now! This was developed during august prior to beginning my course at NorthCoders, however developed for the course. The site uses VueJS as it's the framework used in-house at AHC and I wanted the practise.",
         Date: '08/08/2019',
-        Languages: {'Vue':67.3, 'CSS': 24.8, 'JavaScript': 4.5, 'HTML': 3.4},
+        Languages: {'Vue':71.3, 'CSS': 22.6, 'JavaScript': 3.3, 'HTML': 2.8},
       },{
         Title: 'LUDUM Dare 44 - Dadiator',
         Description: 'Another 72 hour challenge to develop a video game. This one was developed using the SFML C++ library with two fellow university students. I mainly handled creating the graphics and importing them as sprites and menus for the game. Ultimately thhe game ranked 489th of 2538 entries. More information can be found here: https://ldjam.com/events/ludum-dare/44/dadiator',
