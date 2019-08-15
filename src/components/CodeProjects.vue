@@ -19,6 +19,7 @@
 
 <script>
 import projectData from './ProjectGraph.vue'
+
 export default {
   name: 'CodeProjects',
   components:{

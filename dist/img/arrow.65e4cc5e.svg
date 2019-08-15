@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="arrow.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.22"
+     inkscape:cx="516.11738"
+     inkscape:cy="670.15264"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="3432"
+     inkscape:window-y="757"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#cc1c1c;stroke:#cc1c1c;stroke-width:11.33858282;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       d="M 379.05469 169.66406 C 379.05469 169.66406 37.093967 326.15516 13.910156 432.80078 C -9.2737304 539.44639 316.45898 719.12109 316.45898 719.12109 C 316.45898 719.12109 155.33182 583.49593 176.19727 503.51172 C 195.20339 430.6549 351.3063 416.51037 379.05469 414.56055 C 406.79794 416.50987 562.90751 430.65327 581.91406 503.51172 C 602.77951 583.4959 441.65234 719.12109 441.65234 719.12109 C 441.65234 719.12109 767.38502 539.44639 744.20117 432.80078 C 721.01736 326.15517 379.05469 169.66406 379.05469 169.66406 z "
+       transform="scale(0.26458333)"
+       id="path829" />
+  </g>
+</svg>
