@@ -27,7 +27,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .leftBox{
     width: 100%;
@@ -40,11 +40,10 @@
     width: 50%;
     margin-bottom: 20px;
   }
-
 }
 
-/* Medium devices (landscape tablets, 768px and below) */
-@media only screen and (max-width: 768px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
   .leftBox{
     width: 50%;
   }
@@ -58,7 +57,19 @@
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1024px) {
+  .leftBox{
+    width: 80%;
+  }
+  .rightBox{
+    width: 20%;
+  }
+  .ProjectGraphWrapper{
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1921px) {

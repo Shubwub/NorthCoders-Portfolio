@@ -4,12 +4,30 @@
 @import './art.css';
 
 body{
-    font-family: var(--font);
+  font-family: var(--font);
 }
 a{
-    text-decoration: none;
-    color: var(--header-color);
+  text-decoration: none;
+  color: var(--header-color);
 }
 .pageWrapper{
-    position: relative;
+  position: relative;
+}
+html{   
+  scroll-behavior: smooth;
+}
+#arrow{
+  position: fixed;
+  top: 5%;
+  left: 50px;
+  height: 100px;
+  width: 200px;
+  filter: drop-shadow( 3px 3px 2px rgba(112, 112, 112, 0.3));
+  transition: .5s;
+  opacity: 0;
+}
+@media all and (max-width: 1280px) {
+  #arrow{
+    display: none;
+  }
 }

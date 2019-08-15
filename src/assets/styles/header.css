@@ -1,107 +1,119 @@
 @import './variables.css';
 
 .container{
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-    margin-top: 60px;
-    margin-left: 300px;
-    margin-right: 300px;
-  }
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
 .header{
-    display: inline-block;
-    max-width: var(--max-width);
-    position: relative;
+  display: inline-block;
+  max-width: var(--max-width);
+  position: relative;
 }
 .titleImg{
-    clip-path: polygon(50% 0%, 50% 50%, 50% 100%, 50% 50%);
-    transition: 1s;
-    width: 100%;
-    z-index: 1;
-    border: 1px solid white;
-    display: inline-block;
+  clip-path: polygon(50% 0%, 50% 50%, 50% 100%, 50% 50%);
+  transition: 1s;
+  width: 100%;
+  z-index: 1;
+  border: 1px solid white;
+  display: inline-block;
 }
 .imgText{
-    position: absolute;
-    z-index: -1;
-    font-size: var(--title-font-size);
-    color: var(--header-colour);
-    font-family: var(--font);
-    box-shadow: 25px 5px 20px 1px #e0e0e0;
+  position: absolute;
+  z-index: -1;
+  font-size: var(--title-font-size);
+  color: var(--header-colour);
+  font-family: var(--font);
+  border: 2px solid var(--header-colour);
 }
 #headerLeft{
-    padding-right: 50px;
-    top: 10%;
+  padding-right: 50px;
+  top: 10%;
 }
 #headerRight{
-    padding-left: 60px;
-    padding-right: 10px;
-    top: 80%;
-    right: 0;
+  padding-left: 60px;
+  padding-right: 10px;
+  top: 80%;
+  right: 0;
 }
 .nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin: auto;
-    justify-content: center;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: auto;
+  justify-content: center;
+  display: flex;
 }
-.navli{
-    margin-top: 10px;
-    float: left;
-    font-size: var(--nav-font-size);
-    padding: 10px;
-    color: var(--header-colour);
-    border-right: 1px solid var(--header-colour);
-    transition: .5s;
+.navel{
+  margin-top: 10px;
+  float: left;
+  font-size: var(--nav-font-size);
+  padding: 10px;
+  color: var(--header-colour);
+  border-right: 1px solid var(--header-colour);
+  transition: .5s;
 }
-.navli:hover{
-    background-color: var(--header-colour);
-    color: white;
-    transition: .5s;
-    cursor: pointer;
-    box-shadow: 25px 5px 20px 1px #e0e0e0;
-
+.navel:hover{
+  background-color: var(--header-colour);
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+  box-shadow: 25px 5px 20px 1px #e0e0e0;
 }
 #firstLink{
-    border-left: 1px solid var(--header-colour);
+  border-left: 1px solid var(--header-colour);
 }
-
+.linkList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.linkEl{
+  float: left;
+  padding-left: 20px; 
+  padding-right: 20px;
+  color: var(--header-colour);
+}
 
 @media all and (max-width: 1690px) { }
 @media all and (max-width: 1280px) { }
-@media all and (max-width: 980px) {  }
-@media all and (max-width: 768px) { 
-    .imgText{
-        font-size: 60px;
-    } 
-    #headerLeft{
-        left: 2%;
-    }
-    #headerRight{
-        right: 2%;
-    }
-    .navli{
-        font-size: 50px;
-    }
-    .container{
-        margin: 0;
-    }
-}
-@media all and (max-width: 480px) {
-    .imgText{
-        font-size: 30px;
-    } 
-    #headerLeft{
-        left: 2%;
-    }
-    #headerRight{
-        right: 2%;
-    }
-    .navli{
-        font-size: 20px;
-    }
+@media all and (max-width: 1920px) { 
+  .imgText{
+    font-size: 60px;
+  } 
+  #headerLeft{
+    left: 2%;
   }
+  #headerRight{
+    right: 2%;
+  }
+  .navel, .linkEl{
+    font-size: 50px;
+  }
+  .container{
+    margin: 0;
+}
+}
+@media all and (max-width: 620px) {
+  .imgText{
+    font-size: 30px;
+  } 
+  #headerLeft{
+    left: 2%;
+  }
+  #headerRight{
+    right: 2%;
+  }
+  .navel, .linkEl{
+   font-size: 40px;
+  }
+}

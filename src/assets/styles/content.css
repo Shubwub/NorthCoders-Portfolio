@@ -1,11 +1,49 @@
 .content{
-    text-align: left;
-    font-size: var(--std-font-size);
+  text-align: left;
+  font-size: var(--std-font-size);
 }
 .colHead{
-    color: var(--header-colour);
-    font-size: var(--nav-font-size);
-    margin-bottom: 10px;
-    width: 100%;
-    border-bottom: 2px solid var(--header-colour);
+  color: var(--header-colour);
+  font-size: var(--nav-font-size);
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 2px solid var(--header-colour);
 }
+.displayBox{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  display: none;
+  background-color: var(--header-colour);
+  cursor: pointer;
+}
+.displayBox > *{
+  pointer-events: none;
+}
+.displayText{
+  width: 95%;
+  display: inline-block;
+
+}
+.dropArrow{
+  width: 5%;
+  transform: rotate(90deg);
+  display: inline-block;
+  transition: .2s;
+  max-height: 100px;
+}
+
+@media all and (max-width: 1690px) {}
+@media all and (max-width: 1280px) {
+  .displayBox{
+    display: flex;
+  }
+  #codeProjEl, #artProjEl{
+    display: none;
+  }
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 768px) {}
+@media all and (max-width: 480px) {}

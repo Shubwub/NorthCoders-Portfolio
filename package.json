@@ -12,6 +12,7 @@
     "cheerio": "^1.0.0-rc.3",
     "core-js": "^2.6.5",
     "github-card": "^1.2.1",
+    "jquery": "^3.4.1",
     "puppeteer": "^1.19.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
