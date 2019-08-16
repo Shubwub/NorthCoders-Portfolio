@@ -1,4 +1,7 @@
-# vuesite
+# Hosted:
+```
+https://shubwub.github.io/NorthCoders-Portfolio/
+```
 
 ## Project setup
 ```
