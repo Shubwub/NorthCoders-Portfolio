@@ -84,9 +84,7 @@
   color: var(--header-colour);
 }
 
-@media all and (max-width: 1690px) { }
-@media all and (max-width: 1280px) { }
-@media all and (max-width: 1920px) { 
+@media all and (max-width: 1919px) { 
   .imgText{
     font-size: 60px;
   } 
@@ -100,8 +98,9 @@
     font-size: 50px;
   }
   .container{
-    margin: 0;
-}
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 @media all and (max-width: 620px) {
   .imgText{
@@ -115,5 +114,8 @@
   }
   .navel, .linkEl{
    font-size: 40px;
+  }
+  .container{
+    margin: 0;
   }
 }
